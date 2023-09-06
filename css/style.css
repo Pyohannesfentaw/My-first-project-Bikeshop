@@ -1,0 +1,1093 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+
+html{
+  height:100%; 
+  width:100%;
+}
+
+.title-single{
+  font-size: 42px;
+  font-family: 'Montserrat', Medium;
+  color: #FFFFFF;
+  margin-top: 100px;
+}
+.row-bottom-border{
+  border-bottom: 0.5px solid rgb(151, 154, 156);
+}
+
+footer {
+width: 100%;
+background-color: #262262;
+}
+.Tweede{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #222222;
+}
+.tweedetext {
+    font-family: 'Lato', sans-serif;
+    color: #777777;
+    font-size: 16px;
+    
+
+}
+.dot {
+    min-height: 60px;
+    min-width: 60px;
+    background-color: #262262;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .checkbox {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: 'Lato', sans-serif;
+     color: #959595;
+
+  }
+  .fa-check-square {
+    font-size: 20px;
+     color:#4CAF50;
+  }
+  .fa-map-marker-alt{
+    font-size: 20px;
+     color:#4CAF50;
+  }
+
+
+.fa-phone{
+  color: white;
+  font-size: 16px;
+}
+
+.image-group2{
+  min-width: 100%;
+}
+
+
+  .nav-link{
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .telefoon-nav{
+    border:2px solid #3F3B7D;
+     border-radius: 250px; 
+     background-color: #3F3B7D;
+  }
+.subtitle-contact{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 24px;
+}
+
+
+  .my-link {
+    font-family: 'Lato', sans-serif;
+    color: #CCCCCC;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    
+      
+  }
+
+
+
+  .moi-cerdtext1{
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+  }
+  .moi-cerdtext2{
+    font-family: 'Signika', sans-serif;
+    color: #222222;
+    font-size:16px;
+  }
+
+.formulier .form-control{
+    width: 72%;
+}
+
+#exampleFormControlTextarea1{
+    width: 100%;
+}
+.cato {
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+color: #222222;
+font-weight: 500;
+
+}
+.catotext2{
+    font-size: 16px;
+    color: #777777;
+    font-family: 'Lato', sans-serif;
+}
+.dames{
+  color: #444444;
+  font-size: 14px;
+  font-family: 'Lato', black;
+  font-weight: 900;
+}
+ #examplecheck{
+    color: purple;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-3deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body{
+    animation: transitionIn 0.75s;
+}
+.body-product{
+  background-color: #F8F8F8;
+}
+.body-product-contact{
+  background-color: #FFFFFF;
+}
+
+.table-row{
+    font-family: 'Signika', sans-serif;
+}
+.werk{
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+}
+.werk2{
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+}
+.pp {
+    color: #c0bebe;
+  }
+  
+  .googlefont {
+    font-family:'Lato', sans-serif;
+    font-weight: 600;
+    size: 16px;
+    color: #CCCCCC;
+  }
+  
+  .reviewfont {
+    font-family: Lato;
+    font-style: italic;
+  }
+  
+  
+
+  .starr {
+    color: yellow;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+  }
+  .footnumero{
+    font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      color: #FFFFFF;
+  }
+  .dames{
+      font-size: 19px;
+  }
+  .form-check-input:checked{
+    background-color: #262262;
+    border-color: #262262;
+  }
+body{
+  overflow-x: hidden ;
+}
+.Aanbod{
+  font-size: 32px;
+  font-family: 'Montserrat', Medium;
+  color: #FFFFFF;
+}
+.onderaanbod{
+  font-size: 18px;
+  color: #C7C7C7;
+  font-family: 'Lato', sans-serif;
+
+}
+div.absolute {
+  position: absolute;
+  width: 290px;
+  height: 800px;
+  border: 3px solid #73AD21;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.nav-d{
+  max-width: 1134px;
+}
+
+
+
+.nav-d a{
+  display: block;
+  
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+
+}
+.nav-d .nav-item:hover {
+  border-bottom: 3px solid #262262 ;
+}
+
+
+
+.home-active{
+  border-bottom: 3px solid #262262 ;
+ 
+}
+
+.home-active a {
+  color: #262262 !important;
+}
+
+
+
+
+.mu-con{
+background-image: url("../img/Banner.png")  ;
+background-size: cover;
+height: auto;
+width: 100%;
+
+}
+/* size of second image */
+.Logo {
+  height: auto;
+  width:100%;
+  margin-top: 160px;
+}
+.row-blue-background{
+  min-height: 280px;
+}
+ * {
+  box-sizing: border-box;
+}
+.carousel-column-gedeelte{
+min-width: 358px;
+}
+.blue-background-margin{
+  margin-bottom: 100px;
+}
+.card-blue-background{
+  min-height: 361px;
+}
+.img-blue-background{
+  min-width: 100%; 
+  min-height: 360px;
+}
+.rebud {
+  float: left;
+  padding: 20px;
+}
+.bekijk-hotspot-btn{
+  font-size: 28px;
+  margin-left:10em; 
+  font-family: 'Lato', sans-serif;
+
+}
+.card-img-overlay {
+  position: relative;
+  background-image: url(../img/newblue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+padding: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fiets-row{
+  min-height: 70px;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .rebud {
+    width: 100%;
+  }
+}
+.box {
+  min-height: 690px;
+  min-width: 300px;
+  position: relative;
+  background-image: url('../img/newreggie.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 85px;
+  top: 25px;
+}
+@media (max-width: 1024px){
+  .box{
+    display: none;
+  
+  }
+  .box1{
+    display: none;
+  }
+  .box2{
+    display: none;
+  }
+  .box3{
+    display: none;
+  }
+}
+.box1 {
+  min-height: 167px;
+  max-width: 198px;
+  position: relative;
+  background-image: url('../img/Buddy_cropped.png') ; top: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  
+}
+.box2 {
+  min-height: 161px;
+  max-width: 139.74px;
+  position: relative;
+  background-image: url('../img/Group1.png') ; top: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1; 
+}
+
+.box3 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  max-width: 100px;
+  top: 65px;
+  left: 150px;
+}
+
+
+ .overlay{
+  position: absolute;
+  
+  top: 0;
+  left: 480px;
+}
+
+ .overlay {
+  opacity: 1;
+  width: 1000px;
+  height: 700px;
+  background-image: url('../img/fietsvoorpagina.png');
+  background-size: cover;
+}
+.bann{
+  position:relative;
+  padding: 0;
+}
+.img-responsive{
+ background-size: contain;
+ width: 100%;
+ height: 50%;
+ padding: 0;
+}
+.card-body{
+  background-color: #F8F8F8 ;
+}
+
+.fa-map-signs {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.fa-id-card {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.fa-credit-card{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+
+  .dotbann2 {
+   
+    background-color: #262262;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+       
+  }
+
+
+
+   
+@media all and (max-width:  375px ) {
+  .dotbann {
+    min-height: 20px;
+    min-width: 20px;
+    background-color: #262262;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    top: 38px;
+    opacity: 0.3;
+    z-index: 999;
+    
+  }
+}
+@media all and (max-width:  768px ) {
+  .dotbann {
+    min-height: 30px;
+    min-width: 30px;
+    background-color: #262262;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 410px;
+    top: 63px;
+    opacity: 0.3;
+    z-index: 999;
+  }
+}
+   
+
+.spacecreator1{
+width: 4.5%;
+}
+.spacecreator2{
+  width: 12%;
+}
+.Nieuwefiets{
+  font-size: 32px; 
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+}
+.cardtitle-home{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 500;
+}
+.Aanbod{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+.onderaanbod{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+.buttonaanbod{
+  min-height:60px;
+  min-width: 354px;
+  border:#07052A;
+  background-color:#07052A;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+.driehonderd{
+  font-size: 18px;
+   margin-left:0.5em; 
+   font-family: 'Lato', sans-serif;
+   color: white; 
+   text-decoration: none;
+   margin-top: 0.5em;
+}
+
+.vriehonderd{
+  font-size: 18px;
+  margin-left:1.5em; 
+  font-family: 'Lato', sans-serif;
+  color: white; 
+  text-decoration: none;
+}
+.evenvoorstellen{
+  color: #262262;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.subvoorstellen{
+  font-size: 16px;
+  color: #777777;
+  font-family: 'Lato', sans-serif;
+}
+.Nieuwefiets{
+  font-size: 32px;
+  font-family:'Montserrat', Medium;
+  font-weight: 500;
+  color: #222222;
+}
+
+.cardsubtitle-home{
+  font-family: 'Lato', sans-serif;
+  color: #777777;
+  font-size: 16px;
+}
+
+.grey-fiets{
+  max-width: 1060px;
+   min-height:206px;
+}
+.grey-row{
+  min-height:648px;
+}
+.contact-row{
+  min-height: 922px;
+}
+.Contacttext1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+.Contacttext2{
+  font-family: 'Lato', sans-serif;
+  color:#777777;
+  font-size: 16px;
+}
+.contactnaam{
+  font-size: 18px;
+  font-family:'Signika', sans-serif;
+}
+
+.nav-item{
+  padding-right: 20px;
+}
+.nav-item a:hover {
+  color: #262262 !important;
+}
+
+
+
+.catogorienewproduct{
+  max-width: 1060px; 
+  min-height:206px;
+  border-radius: 10px;
+  
+}
+.cardnewproduct{
+  border: none;
+  border-radius: 10px;
+  border-top: white;
+}
+
+
+.tablerepair{
+  border-radius: 10px;
+ 
+}
+.cardhome{
+  border: none;
+   border-radius: 10px;
+   border-top: white;
+}
+
+
+.cardcontact{
+   min-height:172px;
+   width: 295px;
+   border-radius: 10px;
+   border: none;
+}
+
+.bekijkallebutton{
+  border-radius: 10px;
+   
+    
+   font-size: 18px;
+   margin-top: 30px;
+   margin-bottom: 100px;
+   background-color: #262262;
+   border: #262262;
+}
+.bekijkallebutton:hover{
+  background-color: #262262 ;
+}
+.bekijkallebutton a {
+  color: #FFFFFF;
+}
+.tweedehandsbutton{
+  background-color: #07052A;
+  border-radius: 10px;
+    font-size: 18px;
+     margin-top: 30px;
+      margin-bottom: 100px;
+       border: #07052A;
+}
+.tweedehandsbutton:hover{
+  background-color: #07052A;
+}
+.aanb{
+  writing-mode: tb; 
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  transform: rotate(180deg);
+  
+  
+}
+
+  .sale-div{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-height: 141px;
+    background-color: #FF9800;
+  }
+ /* OMA FIETSEN */
+ .Omafiets{
+   margin-top: 70px;
+   
+ }
+ .omafiets-card {
+   color: #222222;
+   font-size: 24px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .omafiets-text{
+   margin-top: 55px;
+   color: #777777 ;
+   font-size: 16px;
+   font-family: 'Lato', sans-serif;
+ }
+ .omafiets-getal{
+  
+    color: #262262;
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+ }
+
+  .product-img img{
+    
+    margin: 10px  ;
+    cursor: pointer;
+    margin-top: 70px;
+    
+  }
+  
+  .omafiets1 .table-oma .omafiets2 .omafiets3, .omafiets1 .omafiets5 .omafiets2 .omafiets4 {
+    border: none;
+}
+.omafiets4{
+  font-size: 16px;
+  color: #222222;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.omafiets1.omafiets1 .omafiets5 .omafiets2 .omafiets4,
+.omafiets1.omafiets1 .table-oma .omafiets2 .omafiets3,
+.omafiets1.omafiets1 .table-oma {
+  border-left: 1px solid #E9E9E9;
+  border-right: 1px solid #E9E9E9ed;
+}
+
+
+.fullscreen:-webkit-full-screen {
+  width: auto !important;
+  height: auto !important;
+  margin:auto !important;
+}
+ .fullscreen:-moz-full-screen {
+  width: auto !important;
+  height: auto !important;
+  margin:auto !important;
+}
+ .fullscreen:-ms-fullscreen {
+  width: auto !important;
+  height: auto !important;
+  margin:auto !important;
+}     
+
+
+
+/* lightbox */
+.product-img img{
+  
+  transition: 1s;
+}
+.product-img img:hover{
+  
+  transform: scale(1.5);
+}
+
+.buttonfull{
+  position: relative; 
+  top: 160px;
+  left: -40px;  
+  border-radius: 10px; 
+  padding: 10px 10px; 
+  height: 40px; 
+  width: 40px;
+  background-color: #464646;
+}
+.fullscreen-button{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+@media (min-width:800px){
+  .button-full{
+    position: relative;
+     margin-bottom:50px;
+     left: 160px;
+  }
+}
+@media (min-width:1200px){
+  .foot-con{
+    
+     padding: 0px 190px;
+  }
+}
+
+.Omafiets-banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container-contact {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container-wutt{
+  position: relative;
+  text-align: center;
+  
+}
+
+
+
+.centered-contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+color: #07052A;
+  font-size: 42px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.lb-outerContainer::after{
+  overflow: hidden;
+  width: 751px;
+  height: 514px;
+}
+.lb-image{
+  display: block;
+    width: 752px;
+    height: 514px;
+}
+
+
+.mi-showcase{
+  background: url(../img/newblue.png ) no-repeat;
+  background-size:1000%;
+  height: 361px;
+}
+
+.button {
+  width: 250px;
+  display: flex;
+  
+}
+.button {
+
+  display: flex;
+  
+} 
+.bottom-links{
+  color: #CCCCCC;
+  font-size: 16px ;
+  
+}
+.bottom-links:hover {
+  color: #3041a0;
+}
+
+
+
+.con-section{
+  background-color: #FFFFFF;
+}
+
+
+
+.centered-wutt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+@media (max-width:  575px ){
+
+  .centered-wutt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+}
+@media (min-width:  675px){
+
+  .centered-wutt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+}
+.send-email-btn{
+  background-color: #262262;
+  border-color: #262262;
+  
+}
+
+.button{
+  min-height:60px; 
+  min-width: 474px;
+  border:#262262;
+  background-color:#262262; 
+  border-radius: 10px;
+}
+.button:hover{
+  border: #262626;
+  background-color:#262262; 
+}
+.button a:hover{
+  color: white;
+}
+.log{
+  width: 114px;
+   height: 80px;
+}
+.Footertext1{
+  color: #CCCCCC;
+}
+.title-footer{
+   font-size: 24px;
+   color: #FFFFFF;
+}
+.footer-locatie {
+  color:#CCCCCC;
+}
+.footer-locatie:hover{
+  color: #CCCCCC;
+}
+.footer-line{
+color: rgb(151, 154, 156);
+}
+
+.onder-tweedetext{
+  color:#777777;
+  opacity: 100%; 
+  font-weight: bold; 
+  font-size: 16px; 
+  font-family: 'Lato', sans-serif;
+}
+.langetext{
+  font-size:16px;
+
+}
+.place{
+  margin-bottom: 80px;
+}
+.table-text{
+  font-weight: bold; 
+  font-family: 'Signika', sans-serif;
+}
+.ro{
+  font-size: 16px; 
+  font-family: 'Signika', sans-serif;
+}
+.decoration-tab-text{
+  font-weight: 500;
+}
+.ro{
+  font-family: 'Signika', sans-serif;
+
+}
+.Nieuwefiets-title-box{
+  min-height:110px;
+}
+
+.form-check-label{
+  min-width:30px; 
+  min-height:30px;
+
+}
+@media (max-width: 1024.98px) {
+  .overlay {
+    display: none;
+  }
+  
+}
+@media (max-width: 1820px){
+  .overlay{
+    position: absolute;
+    
+    top: 0;
+    left: 410px;
+  }
+}
+
+.fietsgedeelte{
+ min-width: 358px;
+}
+.bekijk-fietsen-btn{
+  color: white;
+  text-decoration: none;
+}
+.button-product{
+  min-height:60px; 
+  min-width: 298px; 
+  border:#262262; 
+  background-color: #262262; 
+  border-radius: 10px;
+
+}
+.button-orange{
+  background-color: orange;
+  color: white;
+}
+.button-orange:hover{
+  background-color: rgb(224, 161, 77) ;
+  color: white;
+}
+.button-orange a:hover{
+  color: white;
+}
+.home-backgroundblue-text{
+  margin-top: 90px;
+  max-height: 300px;
+}
+.occasions-blue-background{
+  margin-bottom: 100px;
+}
+.img-blue-back{
+  min-height: 360px;
+}
+.bluebackground-column{
+  margin-top: 80px;
+}
+@media (max-width: 768px) { 
+  .bluebackground-column{
+    margin: 0px ;
+  }
+  .markt{
+    top: 130px;
+  }
+ }
+
+.home-backgroundblue-img{
+  margin-bottom: 30px;
+}
+.bekijk{
+  font-size: 18px; 
+  margin-left:5.5em; 
+  font-family: 'Lato', sans-serif;
+
+}
+.fa-euro-sign{
+  font-size: 16px; 
+  font-style:'Lato', sans-serif;
+
+}
+
+
+.card-div{
+  min-width: 358px;
+}
+.carousel-control-next-icon{
+  color:black;
+}
+.carousel-control-prev-icon{
+  color: black;
+}
+.bekijk-circlel{
+  margin-left:20em; 
+  font-family: 'Lato', sans-serif;
+}
+.hotspot-btn-link{
+  color: white;
+  text-decoration: none;
+}
+
+.button-small{
+  min-height:60px; 
+  min-width: 298px; 
+  border:#262262; 
+  background-color:#262262; 
+  border-radius: 10px;
+}
+@media (max-width: 576px){
+  .button-small{
+    min-height:60px; 
+    min-width: 310px; 
+    border:#262262; 
+    background-color:#262262; 
+    border-radius: 10px;
+  }
+
+  }
+  .bekijk{
+    font-size: 18px; 
+    margin-left:5.5em; 
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+
+.bekijk-1399 { 
+  
+  font-size: 18px; 
+  margin-left:4.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.euro-product-single{
+  font-size: 16px; 
+  font-style:'Lato', sans-serif; 
+  font-size: 37px; 
+  font-weight:bolder; 
+  color: #262262;
+}
+.omafiets3{
+  background-color: #E9E9E9;
+}
